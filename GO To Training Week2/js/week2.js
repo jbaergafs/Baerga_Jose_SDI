@@ -17,3 +17,22 @@ var name= prompt("Let's figure out how old you " +
 //Use the variable and sya hello
 alert("Welcome "+name+"!");
 
+//Ask the user what year they were born
+var yearBorn = prompt("What year werew you born?");
+
+//console.log the answer to check it
+console.log(yearBorn);
+
+//Calculate their age
+
+//we need to know the current year
+//Hardcoded - means type in a specifyc value.
+var currentYear = 2015;
+
+//figure out age
+var age = currentYear - yearBorn-1;
+
+//alert the user with their age
+alert(name+" you are "+age+" years old");
+
+
