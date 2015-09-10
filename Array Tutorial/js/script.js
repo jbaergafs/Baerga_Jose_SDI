@@ -4,4 +4,6 @@
 //Arrays
 var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0.1.2.3
 
-console.log(muppetNames);
+var num = 2;
+console.log(muppetNames[num]);//lets me see what is in the index
+
