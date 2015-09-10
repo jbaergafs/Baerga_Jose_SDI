@@ -1,10 +1,12 @@
 /**
  * Created by josebaerga on 9/10/15.
  */
-//Expressions - Modulo
+//Expressions - Casting
+
 
 var remainder = 32 % 10;
 console.log(remainder);
+
 
 
 
