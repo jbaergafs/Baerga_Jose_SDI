@@ -5,7 +5,7 @@
  * instructor: Eric Silvay
  */
 
-//Expressions_worksheet - Slice of Pie part 1 .
+//Expressions_worksheet - Slice of Pie part 2 .
 
 //Variables of calculating How many Slice Per person eat in the party.
 
@@ -14,6 +14,7 @@
 //variable for pizzasOrder, peopleParty and slicePizza.
 
 //Asking how many Pizzas they order for the party (pizzasOrder)
+
 var pizzasOrder = prompt("How many pizzas that they order for the party \n Please enter the amount of pizza's ");
 console.log(pizzasOrder);
 
@@ -28,5 +29,20 @@ var slicePizza = (pizzasOrder / peopleParty) * pizzasOrder;
 alert("Each person ate " + " " + slicePizza + " " + "slices at the party");
 console.log("Each person ate " + " " + slicePizza + " " + "slices at the party");
 
+//now we want to found out how many pizzas are left that Sparky can ate.
 
+ //Slices diveds in equal by people
 
+var pizzaDiv = 8;
+
+var sliceDiv = (pizzaDiv/peopleParty) * pizzasOrder;
+
+// if people only ate sliceAte how much left for Sparky.
+
+var sliceAte = prompt("How many slice people ate? ");
+console.log(sliceAte);
+
+var sliceDog = sliceDiv - sliceAte;
+
+alert("Sparky ate's " + " " + sliceDog);
+console.log(sliceDog);
