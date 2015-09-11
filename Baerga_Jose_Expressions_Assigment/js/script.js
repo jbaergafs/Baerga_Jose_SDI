@@ -8,7 +8,7 @@
 /*
  * We are going to calculate how many miles do a peron walk a day and how many steps need to walk
  * on a desired distance.
- */,
+ */
 
 // found out how many steps a person walk in a day asuming that the person know that information
 
@@ -41,6 +41,29 @@ var stpsNeed = milesToWalk * stepAvrg;
 
 alert("You need to walk" + " " + stpsNeed + " " + "steps to get to your goal "); //show to user the amount of steps result
 console.log("You need to walk" + " " + stpsNeed + " " + "steps to get to your goal ");//print on console.log the amount of steps
+
+// let see what ahppen if we increase the average by 100 more steps
+
+//increasing the average by 100 more steps
+var stepAvrg = 2000;
+var stepAvrgB = 100;
+ stepAvrgB += stepAvrg;
+
+// found out how many steps a person walk in a day assuming that the person know that information
+
+var stepsWlk = prompt("Let found out how many miles do you walk today \n Using the new avarage \n Pleas enter the steps that you walk today "); //prompt the stepswalks today
+console.log(stepsWlk);//print to console.log the steps walks today.
+
+
+// How many miles a person walk from averageB
+
+var milesWalk = stepsWlk / stepAvrgB;
+
+//Console.log of miles walk with the new stepAvrgB
+
+alert("You walk " + " " + milesWalk + " " + "miles Today on the new average steps"); //Alert to user of many steps was the different on the new average
+console.log("You walk " + " " + milesWalk + " " + "miles Today on the new average steps"); //print on console.log the steps walk with the different average
+
 
 
 
