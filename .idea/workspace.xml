@@ -40,8 +40,8 @@
       <file leaf-file-name="gototrainingweek3.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Go To Training Week 3/js/gototrainingweek3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8763251">
-              <caret line="101" column="67" selection-start-line="101" selection-start-column="67" selection-end-line="101" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.96466434">
+              <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -132,8 +132,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="658" />
-    <option name="y" value="33" />
+    <option name="x" value="853" />
+    <option name="y" value="55" />
     <option name="width" value="840" />
     <option name="height" value="967" />
   </component>
@@ -300,7 +300,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="658" y="33" width="840" height="967" extended-state="0" />
+    <frame x="853" y="55" width="840" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2954823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -368,6 +368,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -452,6 +455,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -726,8 +732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Go To Training Week 3/js/gototrainingweek3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8763251">
-          <caret line="101" column="67" selection-start-line="101" selection-start-column="67" selection-end-line="101" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.96466434">
+          <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
           <folding />
         </state>
       </provider>

@@ -100,3 +100,27 @@ Date : 09/15/2015
  }
 
 console.log("The total number of pear in the bowl is "+pearNumber);
+
+ //Validate prompts
+ var name = prompt("What is your name?");
+
+ //Test is the variable is blank
+ if(name ===""){
+  //The user left it blank
+  //reprompt the user using the same variable
+  name = prompt("Please do not leave blank. \nWhat is your name?");
+
+ }
+var num1 = prompt("Please type in a number");
+
+ //TEst to see if it is a number
+
+ //isNaN(item to test
+ console.log(isNaN("cat")); //true
+ console.log(isNaN(7)); //returns false
+
+ if(isNaN(num1)){
+  //repropmt the user
+  num1 = prompt("Please only use numbers. \nType in a number");
+  
+ }
