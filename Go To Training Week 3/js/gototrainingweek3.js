@@ -10,7 +10,7 @@ Date : 09/15/2015
 //Array - variable that holds multiple variables
 // Index # of an array always starts with 0!!
 
- var bowlOfFruit = ["apple", "banana", "pear", "peach", "pear", "Kiwi", "Strawberrys", "pear", "pear"];
+ var bowlOfFruit = ["apple", "banana", "pear", "peach", "pear", "Kiwi", "Strawberries", "pear", "pear"];
 
 
 //See whole array
