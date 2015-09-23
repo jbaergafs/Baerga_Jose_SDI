@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5b87b7e-2cdc-4bcb-8acd-af5b38b5eaef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Go to Training Week 4/js/week4.js" afterPath="$PROJECT_DIR$/Go to Training Week 4/js/week4.js" />
     </list>
     <ignored path="Baerga_Jose_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="week4.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Go to Training Week 4/js/week4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16901408">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.7183099">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -101,8 +101,8 @@
         <option value="$PROJECT_DIR$/Baerga_Jose_Conditionals_Assignment/index.html" />
         <option value="$PROJECT_DIR$/Go To Training Week 3/js/gototrainingweek3.js" />
         <option value="$PROJECT_DIR$/Baerga_Jose_Conditionals_Assignment/js/script.js" />
-        <option value="$PROJECT_DIR$/Go to Training Week 4/js/week4.js" />
         <option value="$PROJECT_DIR$/Go to Training Week 4/Got to training Week 4.html" />
+        <option value="$PROJECT_DIR$/Go to Training Week 4/js/week4.js" />
       </list>
     </option>
   </component>
@@ -114,8 +114,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="600" />
-    <option name="y" value="23" />
+    <option name="x" value="806" />
+    <option name="y" value="43" />
     <option name="width" value="840" />
     <option name="height" value="828" />
   </component>
@@ -296,7 +296,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="600" y="23" width="840" height="828" extended-state="0" />
+    <frame x="806" y="43" width="840" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2954823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -708,8 +708,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Go to Training Week 4/js/week4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16901408">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.7183099">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
