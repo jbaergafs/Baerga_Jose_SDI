@@ -14,11 +14,20 @@ Date : 09/23/2015
 
  var minNum = prompt("Let's find a number between two numbers \nWhat is the min number");
 
+ //parse int variable
+ //minNum=parseInt(minNum);
+ //console.log(minNum);
  //Validate the prompt is not blank and it is a number
  while(minNum==="" || isNaN(minNum)){
   //re-prompt the
-  minNum = prompt("Please do not leave blank only use numbers. \nWhat is the min number");
+  if(minNum===""){
+   minNum = prompt("Please do not leave blank " +
+       " \nWhat is the min number");
+  }else if (isNaN(minNum)){
 
+   minNum = prompt("Please do not leave blank only use numbers." +
+       " \nWhat is the min number");
+  }
  }
  /*
  Basic structure of a while loop
