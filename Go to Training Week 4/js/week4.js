@@ -62,4 +62,31 @@ var maxNumber = prompt("What is the max number");
   happy = prompt("Please only use yes or no. \nAre " +
           "you happy today?");
  }
- 
+//Function call - "go button" taht run the function
+ //Argument go inside of the function call ()
+ //create a variable to CATCH the retur value.
+ var returnValue =  randomizr(minNum, maxNumber);
+
+ console.log("Your random number between "+minNum+" and "+maxNumber+" is "+returnValue);
+
+
+
+ //Create a function to calculate the random number
+ //parameters go inside ()
+ //Parameters are temporary variabels that can only
+ // accessed inside of the function.
+ //They catch the argument that are thrown into the
+ //function.
+ //It make the code more flexible
+ // We DO NOT want to use main code variables inside
+ //of functions
+ function randomizr(min, max){
+        //Generate our random number
+    var randomNum = Math.random()*(max-min)+Number(min);
+    //console.log(randomNum);
+
+    //return the value to our main code
+  return randomNum;
+
+
+ }
