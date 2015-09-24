@@ -90,3 +90,11 @@ var maxNumber = prompt("What is the max number");
 
 
  }
+
+ //Wanted 15 number randoms
+ //Let use a fo loop
+ for(var i=0; i<15; i++){
+      //15 diferents results
+  console.log(randomizr(minNum,maxNumber));
+
+ }
