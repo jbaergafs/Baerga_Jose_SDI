@@ -42,3 +42,24 @@ Date : 09/23/2015
  }
 
    */
+
+ //Prompt the user for a max number
+var maxNumber = prompt("What is the max number");
+
+ //Validate directly after the prompt
+ while(maxNumber==="" || isNaN(maxNumber)){
+  maxNumber = prompt("Please do not leave blank and only use numbers. " +
+      "\nWhat is the max number");
+ }
+
+ //What if I wanted to validate words
+ //Ask a yes or no question
+ var happy = prompt("Are you happy today?");
+//convert to all lowercase
+ happy = happy.toLowerCase();
+ while(happy !="yes" && happy !="no" && happy !="maybe"){
+  //
+  happy = prompt("Please only use yes or no. \nAre " +
+          "you happy today?");
+ }
+ 
