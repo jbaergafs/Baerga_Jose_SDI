@@ -98,3 +98,18 @@ var maxNumber = prompt("What is the max number");
   console.log(randomizr(minNum,maxNumber));
 
  }
+
+ //The browser can not see an anon function until it
+ //gets to it.
+
+ //Create a anon function that adds two numbers together
+ // var fuctionName = function(){};
+ var addNums = function (num1, num2){
+    var total = Number(num1)+Number(num2);
+     return total;
+
+ };
+
+ //function call
+ var totalReturned = addNums(5,6);
+ console.log(totalReturned + " is the actual total.");
