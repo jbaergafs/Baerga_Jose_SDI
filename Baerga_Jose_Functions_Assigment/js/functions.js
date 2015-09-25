@@ -57,7 +57,7 @@ Date : 09/24/2015
 
  //What type of milk you drink
 
- var typeOfMilk = prompt("What type of milk you drink?");
+ var typeOfMilk = prompt("What type of milk you drink? \n lowfat, whole or light?");
  //Made all the answers go on lower case
  typeOfMilk = typeOfMilk.toLowerCase();
  while(typeOfMilk !="light" && typeOfMilk !="whole" && typeOfMilk !="lowfat"){
@@ -66,17 +66,24 @@ Date : 09/24/2015
  }
 
  //Let's prepare our function for How much milk you consume and pay in 1 year
- var returnValue = milkYear(gallonsPerMoth, payPerGallon);
- console.log("The amount of milk is "+gallonsPerMoth+"and you pay per gallon is "+payPerGallon+"in one year you pay"+returnValue);
+ var returnMilk = milkYear(gallonsPerMoth);
+ var returnPay = yearPay(payPerGallon);
+ alert("The amount of milk in a moth is"+" "+gallonsPerMoth+" gallons and you pay per gallon is $"+payPerGallon+" " +
+     " \nin one year you drink "+returnMilk+" gallons and pay is $"+returnPay);
+ console.log("The amount of milk in a moth is"+" "+gallonsPerMoth+" gallons and you pay per gallon is $"+payPerGallon+" " +
+     " \nin one year you drink "+returnMilk+" gallons and pay is $"+returnPay);
 
  // So the formula is yearOfMilk = gallonsOfMilk * 12 and multiply that with payPerGallon and give you hom much you spend in a year
 
- function milkYear(milk,pay){
-  var totalMilk = Math(milk * 12);
+ function milkYear(milk){
+  var totalMilk = Number(milk) * 12;
   return totalMilk;
-  var totalPay = Math(pay * totalMilk);
-  return totalPay;
+
  }
+function yearPay(pay){
+ var totalPay = Number(pay) * returnMilk;
+ return totalPay;
+}
 
  //print out the results
 
