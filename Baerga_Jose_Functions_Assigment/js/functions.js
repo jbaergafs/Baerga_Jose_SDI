@@ -9,7 +9,7 @@ Date : 09/24/2015
 
  // We are going to ask 4 peoples of how many gallons of milk they drink in
  //a mont and we are going to calculate how much they drink in an spesific amount of years and how much they spend
- // we are going to use a formula galons drink = gallonsPerMoth X 12 moths and multiply by the years that we will drink
+ // we are going to use a formula gallons drink = gallonsPerMoth X 12 moths and multiply by the years that we will drink
  // and also know how much they will spend.
 
 
